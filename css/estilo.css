@@ -25,4 +25,7 @@ h1{
 }
 p{
     font-size: 1.4em;
+    color: azure;
+    text-align: justify;
+    text-indent: 40px;
 }
