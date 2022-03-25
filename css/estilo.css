@@ -2,10 +2,27 @@ body{
     background-color: #7B68EE;
 }
 
-img{
-   width: 50%; 
+.img_topo{
+    width: 1000px;
+}
+
+.img_corpo{
+    width: 50%;
 }
 
 figure{
     text-align: center ;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+h1{
+    text-align: center;
+    color: #FF1493;
+}
+p{
+    font-size: 1.4em;
 }
