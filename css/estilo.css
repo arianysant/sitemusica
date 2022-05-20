@@ -2,6 +2,13 @@ body{
     background-color: #7B68EE;
 }
 
+html{ scroll-behavior: smooth ;
+
+}
+.menu{
+    background-color: antiquewhite;
+}
+
 .img_topo{
     width: 1000px;
 }
