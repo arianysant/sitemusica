@@ -5,6 +5,7 @@ body{
 html{ scroll-behavior: smooth ;
 
 }
+
 .menu, footer{
     background-color: rgba(130, 130, 130, 0.5);
     padding:1.5% ;
@@ -51,7 +52,7 @@ p{
     text-align: center;
 }
 
-footer > p{
+footer p{
     font-size: 1.2em;
     text-align: center;
 }
@@ -63,6 +64,16 @@ footer > p{
   .iten_menu a:hover {
     background-color: rgba(181, 38, 194, 0.062);
   }
+  
+
+  .escondido{
+    display: none;
+  }
+
+  .botao{
+      text-align: center; 
+  }
+
   
  
     
