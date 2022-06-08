@@ -37,15 +37,25 @@ figure{
 
 h1{
     text-align: center;
-    color: #FF1493;
+    color: #ec2e8d;
     font-size: 2em;
 }
+
+h2{
+    text-align: center;
+    color: black;
+    font-size: 1.5em;
+    margin-bottom: 2%;
+    margin-top: 2%;
+}
+
 p{
     font-size: 1.4em;
     color: azure;
     text-align: justify;
     text-indent: 40px;
 }
+
 
 .iten_menu{
     line-height: 1.5em;
@@ -58,21 +68,39 @@ footer p{
 }
 
   .iten_menu a:visited {
-    background-color: #c26ce442;
+    background-color: #4400ff8a;
   }
   
   .iten_menu a:hover {
-    background-color: rgba(181, 38, 194, 0.062);
+    background-color: rgba(102, 4, 194, 0.534);
   }
-  
 
   .escondido{
     display: none;
   }
 
   .botao{
-      text-align: center; 
+      text-align: center;
+      background-color: #ec2e8d;
+      font-size: 25px;
+      box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+      width: ;
   }
+
+  section a: link{
+      color: #c9254e;
+  }
+
+  section a:visited {
+    color: rgb(107, 26, 161); 
+  }
+  
+  section a:hover{
+    color: #630c0c;
+  }
+  
+  
+  
 
   
  
