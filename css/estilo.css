@@ -16,6 +16,10 @@ html{ scroll-behavior: smooth ;
     padding-bottom: 1%;
 }
 
+.img_logo{
+    width: 10%;
+}
+
 .img_topo{
     width: 1000px;
 }
@@ -67,40 +71,53 @@ footer p{
     text-align: center;
 }
 
-  .iten_menu a:visited {
+.iten_menu a:visited {
     background-color: #4400ff7a;
-  }
+}
   
-  .iten_menu a:hover {
+.iten_menu a:hover {
     background-color: rgba(135, 31, 233, 0.452);
-  }
+}
 
-  .escondido{
+.escondido{
     display: none;
-  }
+}
 
-  .botao{
+.botao {
       padding: 0.2em;
-
       height: 40px;
       background-color: #ec2e8d;
       font-size: 25px;
       text-align: center;
       box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
       font-weight: bolder;   
-  }
+}
 
-  section a: link{
+section a: link{
       color: #c9254e;
-  }
+}
 
   section a:visited {
     color: rgb(107, 26, 161); 
-  }
+}
   
-  section a:hover{
+section a:hover{
     color: #f504a5e7;
-  }
+}
+
+.direita{
+    float:right;
+    width: 23%;
+    margin-left: 1.4%;
+    margin-bottom: 1%;
+}
+  
+.esquerda{
+    float: left;
+    width: 10%;
+    margin-bottom: 1%;
+    margin-right: 0%;
+}
   
   
   
