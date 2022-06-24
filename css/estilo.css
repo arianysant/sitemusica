@@ -14,6 +14,7 @@ html{ scroll-behavior: smooth ;
 .logo{
     padding-top: 1%;
     padding-bottom: 1%;
+    text-align: center;
 }
 
 .img_logo{
@@ -52,6 +53,12 @@ h2{
     margin-bottom: 2%;
     margin-top: 2%;
 }
+
+.parag_genero > p{
+
+    font-size: 1em;
+    line-height: 1.5;
+  }
 
 p{
     font-size: 1.4em;
@@ -97,13 +104,10 @@ section a: link{
       color: #c9254e;
 }
 
-  section a:visited {
+section a:visited {
     color: rgb(107, 26, 161); 
 }
   
-section a:hover{
-    color: #f504a5e7;
-}
 
 .direita{
     float:right;
