@@ -122,6 +122,22 @@ section a:visited {
     margin-bottom: 1%;
     margin-right: 0%;
 }
+
+table{
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 2%;
+  }
+  
+
+  
+  td,th{
+    border: 5px inset #550086c2;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    text-align: center;
+  }
+  
   
   
   
