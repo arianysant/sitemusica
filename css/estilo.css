@@ -9,6 +9,7 @@ html{ scroll-behavior: smooth ;
 .menu, footer{
     background-color: rgba(130, 130, 130, 0.5);
     padding:1.5% ;
+    font-family: 'Passion One', cursive;
 }
 
 .logo{
@@ -44,6 +45,7 @@ h1{
     text-align: center;
     color: #ec2e8d;
     font-size: 3em;
+    font-family: 'Rampart One', cursive;
 }
 
 h2{
@@ -52,6 +54,7 @@ h2{
     font-size: 1.5em;
     margin-bottom: 2%;
     margin-top: 2%;
+    font-family: 'Rampart One', cursive;
 }
 
 .parag_genero > p{
@@ -65,6 +68,7 @@ p{
     color: azure;
     text-align: justify;
     text-indent: 40px;
+    font-family: 'PassionOne-Bold';
 }
 
 
@@ -136,6 +140,13 @@ table{
     padding-top: 1%;
     padding-bottom: 1%;
     text-align: center;
+  }
+
+  @font-face {
+      font-family: 'PassionOne-Bold';
+      src: url(../fonts/PassionOne-Bold.ttf);
+      src: url(../fonts/PassionOne-Black.ttf);
+      src: url(../fonts/PassionOne-Regular.ttf);
   }
   
   
