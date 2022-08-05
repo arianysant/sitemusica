@@ -133,14 +133,33 @@ table{
     margin-top: 2%;
   }
   
-
+audio{
+    width: 70%;
+}
   
-  td,th{
+td,th{
     border: 5px inset #550086c2;
     padding-top: 1%;
     padding-bottom: 1%;
     text-align: center;
   }
+
+tr:nth-child(even) {
+    background-color: #ec2e8da8;
+  }
+  
+td:first-child{
+    width: 40%;
+  }
+  
+td:first-child + td{
+    width: 60%;
+  }
+
+audio::-webkit-media-controls-panel{
+    background-color:rgba(128, 128, 128, 0.3) !important;
+    }
+  
 
   @font-face {
       font-family: 'PassionOne-Bold';
