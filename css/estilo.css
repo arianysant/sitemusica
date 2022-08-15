@@ -87,7 +87,12 @@ footer p{
 }
   
 .iten_menu a:hover {
-    background-color: rgba(135, 31, 233, 0.452);
+    color: #fff;
+    padding: 0.8%;    
+    background-color: rgba(128, 128, 128, 0.3); 
+    text-decoration: none;
+    border-radius: 15%;
+
 }
 
 .escondido{
