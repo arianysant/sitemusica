@@ -1,9 +1,27 @@
+html{ scroll-behavior: smooth ;
+
+}
 body{
     background-color: #7B68EE;
 }
 
-html{ scroll-behavior: smooth ;
+header{
+    padding: 0%;  
+    font-family: 'Passion One', cursive;
+    background-color: #7B68EE;
+    position: relative;
+}
+  
+.fixo{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+  
+}
 
+.banner{
+    margin-top: 25%;
 }
 
 .menu, footer{
@@ -73,8 +91,12 @@ p{
 
 
 .iten_menu{
-    line-height: 1.5em;
+    line-height: 1.2em;
     text-align: center;
+}
+
+.iten_menu a{
+    font-size: 1em;
 }
 
 footer p{
