@@ -1,6 +1,7 @@
 html{ scroll-behavior: smooth ;
 
 }
+
 body{
     background-color: #7B68EE;
 }
@@ -10,34 +11,28 @@ header{
     font-family: 'Passion One', cursive;
     background-color: #7B68EE;
     position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
   
 .fixo{
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
+ position: fixed;
+ top: 0;
+ left: 0;
+ right: 0;
+ z-index: 1;
   
 }
 
-.banner{
-    margin-top: 25%;
-}
-
-.menu, footer{
+.footer{
     background-color: rgba(130, 130, 130, 0.5);
     padding:1.5% ;
     font-family: 'Passion One', cursive;
 }
 
-.logo{
-    padding-top: 1%;
-    padding-bottom: 1%;
-    text-align: center;
-}
-
 .img_logo{
-    width: 10%;
+    width: 20%;
 }
 
 .img_topo{
@@ -79,7 +74,7 @@ h2{
 
     font-size: 1em;
     line-height: 1.5;
-  }
+}
 
 p{
     font-size: 1.4em;
@@ -109,109 +104,115 @@ footer p{
 }
   
 .iten_menu a:hover {
-    color: #fff;
-    padding: 0.8%;    
-    background-color: rgba(128, 128, 128, 0.3); 
-    text-decoration: none;
-    border-radius: 15%;
+ color: #fff;
+ padding: 0.8%;    
+ background-color: rgba(128, 128, 128, 0.3); 
+ text-decoration: none;
+ border-radius: 15%;
 
 }
 
 .escondido{
-    display: none;
+ display: none;
 }
 
 .botao {
-      padding: 0.2em;
-      height: 40px;
-      background-color: #ec2e8d;
-      font-size: 25px;
-      text-align: center;
-      box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
-      font-weight: bolder;   
+ padding: 0.2em;
+ height: 40px;
+ background-color: #ec2e8d;
+ font-size: 25px;
+ text-align: center;
+ box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+ font-weight: bolder;   
 }
 
 section a: link{
-      color: #c9254e;
+ color: #c9254e;
 }
 
 section a:visited {
-    color: rgb(107, 26, 161); 
+ color: rgb(107, 26, 161); 
 }
   
 
 .direita{
-    float:right;
-    width: 23%;
-    margin-left: 1.4%;
-    margin-bottom: 1%;
+ float:right;
+ width: 23%;
+ margin-left: 1.4%;
+ margin-bottom: 1%;
 }
   
 .esquerda{
-    float: left;
-    width: 10%;
-    margin-bottom: 1%;
-    margin-right: 0%;
+ float: left;
+ width: 10%;
+ margin-bottom: 1%;
+ margin-right: 0%;
 }
 
 table{
-    border-collapse: collapse;
-    width: 100%;
-    margin-top: 2%;
-  }
+ border-collapse: collapse;
+ width: 100%;
+ margin-top: 2%;
+}
   
 audio{
-    width: 70%;
+ width: 70%;
 }
   
 td,th{
-    border: 5px inset #550086c2;
-    padding-top: 1%;
-    padding-bottom: 1%;
-    text-align: center;
-  }
+ border: 5px inset #550086c2;
+ padding-top: 1%;
+ padding-bottom: 1%;
+ text-align: center;
+}
 
 tr:nth-child(even) {
-    background-color: #ec2e8da8;
-  }
+  background-color: #ec2e8da8;
+}
   
 td:first-child{
-    width: 40%;
-  }
+ width: 40%;
+}
   
 td:first-child + td{
-    width: 60%;
-  }
+ width: 60%;
+}
+
+.row:after {
+ content: "";
+ display: table;
+ clear: both;
+}
 
 audio::-webkit-media-controls-panel{
-    background-color:rgba(128, 128, 128, 0.3) !important;
-    }
+ background-color:rgba(128, 128, 128, 0.3) !important;
+}
   
-
-  @font-face {
-      font-family: 'PassionOne-Bold';
-      src: url(../fonts/PassionOne-Bold.ttf);
-  }
+@font-face {
+  font-family: 'PassionOne-Bold';
+  src: url(../fonts/PassionOne-Bold.ttf);
+}
 
 .borda_form{
-    background-color: rgba(128, 128, 128, 0.3) ;
-    padding: 20px;
-    border-radius: 25px;
-    margin-top: 1%;
-    box-sizing: border-box;
-  }
+ background-color: rgba(128, 128, 128, 0.3) ;
+ padding: 20px;
+ border-radius: 25px;
+ margin-top: 1%;
+ box-sizing: border-box;
+}
+
 label {
-    padding: 12px 12px 12px 0;
-    display: inline-block;
-  }
+ padding: 12px 12px 12px 0;
+ display: inline-block;
+}
 
 input[type=text], select, textarea, input[type=tel], input[type=email] {
-    width: 96%;
-    padding: 12px;
-    border: 1px solid #ccc;
-    border-radius: 15px;
-    resize: vertical;
-  }
+ width: 96%;
+ padding: 12px;
+ border: 1px solid #ccc;
+ border-radius: 15px;
+ resize: vertical;
+}
  
 
 .col-25{
@@ -225,6 +226,88 @@ input[type=text], select, textarea, input[type=tel], input[type=email] {
 width: 75%;
 float: left;
 margin-top: 6px;
+}
+
+input[type=submit] {
+ background-color: #e40098;
+ color: white;
+ padding: 12px 20px;
+ border: none;
+ border-radius: 4px;
+ cursor: pointer;
+ float: right;
+}
+  
+input[type=submit]:hover {
+ background-color: black;
+ font-weight: bolder;   
+}
+
+.botaoform{
+    margin-top: 3%;
+}  
+
+/*Faz uma alteração quando a tela fica menor que 600px */
+@media screen and (max-width:600px) {
+
+    .col-25, .col-75, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+     
+    }  
+  
+    .banner{
+      margin-top: 40%;
+    }
+  
+    .logo{
+      padding-top: 1%;
+      padding-bottom: 1%;
+      text-align: center;
+    }
+  
+    .descer{
+      margin-top: 50%;
+    }
+  }
+
+/*Acontece uma alteração quando a tela fica maior que 601px */
+@media screen and (min-width:601px) {
+
+    header{
+      flex-direction: row;
+    }
+  
+    .iten_menu{
+      position: absolute;
+      right: 3%;
+      top: 30%;
+      width: 70%;
+  
+    }
+  
+    .iten_menu ul li {
+          display: inline;
+          margin-left: 1%;
+  
+  
+    }
+  
+    .banner{
+      margin-top: 8%;
+    }
+  
+    .logo{
+      padding-top: 1%;
+      padding-bottom: 1%;
+      text-align: left;
+      width: 30%;
+    }
+  
+    .descer{
+      margin-top: 10%;
+    }
+  
 }
   
   
