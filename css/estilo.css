@@ -223,9 +223,9 @@ input[type=text], select, textarea, input[type=tel], input[type=email] {
 }
 
 .col-75{
-width: 75%;
-float: left;
-margin-top: 6px;
+ width: 75%;
+ float: left;
+ margin-top: 6px;
 }
 
 input[type=submit] {
@@ -244,7 +244,7 @@ input[type=submit]:hover {
 }
 
 .botaoform{
-    margin-top: 3%;
+  margin-top: 3%;
 }  
 
 /*Faz uma alteração quando a tela fica menor que 600px */
@@ -269,7 +269,7 @@ input[type=submit]:hover {
     .descer{
       margin-top: 50%;
     }
-  }
+}
 
 /*Acontece uma alteração quando a tela fica maior que 601px */
 @media screen and (min-width:601px) {
@@ -287,10 +287,8 @@ input[type=submit]:hover {
     }
   
     .iten_menu ul li {
-          display: inline;
-          margin-left: 1%;
-  
-  
+      display: inline;
+      margin-left: 1%;
     }
   
     .banner{
